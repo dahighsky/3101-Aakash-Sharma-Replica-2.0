@@ -133,3 +133,7 @@ footer ul{
 .listHeading{
     font-size: larger;
 }
+footer li:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
