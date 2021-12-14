@@ -124,3 +124,12 @@ body{
     transition-duration: 0.7s;
     margin: 0px 10px;
 }
+
+footer ul{
+    list-style-type: none;
+    margin: 10px 50px;
+}
+
+.listHeading{
+    font-size: larger;
+}
