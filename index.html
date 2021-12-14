@@ -16,19 +16,21 @@
     <nav class="navbar navbar-expand-md fixed-top navbar-dark py-1" style="background-color: black; height: fit-content !important;">
         <div class="container-fluid px-5 py-0">
             
+            <!-- collapsing button -->
+            <button class="navbar-toggler py-0 mr-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <img src="toggle.png">
+            </button>
+
             <!-- logo -->
-            <a class="navbar-brand py-0" href="#home" style="margin-left: 100px;!important">
+            <a class="navbar-brand py-0" href="#home" style="margin-left: 100px!important;">
                 <img src="logo.png" style="height: 40px;">
             </a>
 
-            <!-- collapsing button -->
-            <button class="navbar-toggler py-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            
 
             <!-- menu -->
             <div class="collapse navbar-collapse justify-content-end py-0" style="margin-right: 60px !important;" id="navbar">
-                <ul class="navbar-nav" style="margin-right: 60px;">
+                <ul class="navbar-nav" style="margin-right: 60px; align-items: center;">
                     <li class="nav-item mx-4">
                         <a class="nav-link active" href="#">Home</a>
                     </li>
@@ -50,74 +52,101 @@
         </div>
     </nav>
 
-    <!-- carousel  -->
+    <!-- carousel 1 -->
 
-    <div id="demo" class="carousel slide mx-auto p-5" data-bs-ride="carousel" >
-
-        <!-- carousel controls -->
+    <div id="slider" class="carousel slide mx-auto p-5" data-bs-ride="carousel" >
+    
+        <!-- indicators -->
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button rounded" data-bs-target="#slider" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="3"></button>
         </div>
-        
-        <!-- carousel images -->
-        <div class="carousel-inner">
-            <div class="carousel-item active mx-5 px-5">
-                <div class="d-flex justify-content-around">
-                <div>
-                    <h3 class="text-secondary">HOMEPAD MINI</h3>
-                    <h1 class="display-3" >You have never heard color like this.</h1>  
-                    <h3 class="text-secondary" >From ₹9900*</h3>
-                    <button class="btn text-light" style="background-color:#464749; width: 170px;">Buy Now</button>
+        <div class="carouselMain">
+            <!-- carousel images -->
+            <div class="carousel-inner" style="order: 2;">
+                <div class="carousel-item active">
+                    <div>
+                        <div class="col-8" style="flex-shrink: 2;">
+                            <h2 class="text-secondary" style="font-size: 2vw;">HOMEPAD MINI</h2>
+                            <h1 class="" style="font-weight: bold; font-size: 4vw;">You have never heard color like this.</h1>  
+                            <h2 class="text-secondary" style="font-size: 2vw;">From ₹9900*</h2>
+                            <button class="btn-lg text-light px-5" style="background-color:#464749; font-size: 1.5vw; ">Buy Now</button>
+                        </div>
+                        <div class="d-flex align-items-center col-4" style="box-sizing: border-box; flex-shrink: 1;">
+                            <img src="image 11.jpg" alt="Los Angeles" class="d-block mx-auto" style="width: 100%;">
+                        </div>
+                    </div>
                 </div>
-                <img src="image 11.jpg" alt="Los Angeles" class="d-block" style="height: 40%;">
+                <div class="carousel-item">
+                    <div>
+                        <div class="col-8" style="flex-shrink: 2;">
+                            <h2 class="text-secondary" style="font-size: 2vw;">HOMEPAD MINI</h2>
+                            <h1 class="" style="font-weight: bold; font-size: 4vw;">You have never heard color like this.</h1>  
+                            <h2 class="text-secondary" style="font-size: 2vw;">From ₹9900*</h2>
+                            <button class="btn-lg text-light px-5" style="background-color:#464749; font-size: 1.5vw; ">Buy Now</button>
+                        </div>
+                        <div class="d-flex align-items-center col-4" style="box-sizing: border-box; flex-shrink: 1;">
+                            <img src="image 11.jpg" alt="Los Angeles" class="d-block mx-auto" style="width: 100%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div>
+                        <div class="col-8" style="flex-shrink: 2;">
+                            <h2 class="text-secondary" style="font-size: 2vw;">HOMEPAD MINI</h2>
+                            <h1 class="" style="font-weight: bold; font-size: 4vw;">You have never heard color like this.</h1>  
+                            <h2 class="text-secondary" style="font-size: 2vw;">From ₹9900*</h2>
+                            <button class="btn-lg text-light px-5" style="background-color:#464749; font-size: 1.5vw; ">Buy Now</button>
+                        </div>
+                        <div class="d-flex align-items-center col-4" style="box-sizing: border-box; flex-shrink: 1;">
+                            <img src="image 11.jpg" alt="Los Angeles" class="d-block mx-auto" style="width: 100%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div>
+                        <div class="col-8" style="flex-shrink: 2;">
+                            <h2 class="text-secondary" style="font-size: 2vw;">HOMEPAD MINI</h2>
+                            <h1 class="" style="font-weight: bold; font-size: 4vw;">You have never heard color like this.</h1>  
+                            <h2 class="text-secondary" style="font-size: 2vw;">From ₹9900*</h2>
+                            <button class="btn-lg text-light px-5" style="background-color:#464749; font-size: 1.5vw; ">Buy Now</button>
+                        </div>
+                        <div class="d-flex align-items-center col-4" style="box-sizing: border-box; flex-shrink: 1;">
+                            <img src="image 11.jpg" alt="Los Angeles" class="d-block mx-auto" style="width: 100%;">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="d-flex justify-content-around">
-                <div>
-                    <h3>HOMEPAD MINI</h3>
-                    <h1>You have never heard color like this.</h1>  
-                    <h3>From ₹9900*</h3>
-                    <button>Buy Now</button>
-                </div>
-                <img src="image 11.jpg" alt="Los Angeles" class="d-block">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="d-flex justify-content-around">
-                <div>
-                    <h3>HOMEPAD MINI</h3>
-                    <h1>You have never heard color like this.</h1>  
-                    <h3>From ₹9900*</h3>
-                    <button>Buy Now</button>
-                </div>
-                <img src="image 11.jpg" alt="Los Angeles" class="d-block" style="">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="d-flex justify-content-around">
-                <div>
-                    <h3>HOMEPAD MINI</h3>
-                    <h1>You have never heard color like this.</h1>  
-                    <h3>From ₹9900*</h3>
-                    <button>Buy Now</button>
-                </div>
-                <img src="image 11.jpg" alt="Los Angeles" class="d-block" style="">
-                </div>
-            </div>
+
+            <!-- controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev"  style="order: 1; width: 50px;">
+                <i class="fas fa-chevron-left slideShowIcons" style="color: white; background-color: rgba(0, 0, 0, 0.8);"></i>
+            </button>
+            <button class="carousel-control-next py-auto" type="button" data-bs-target="#slider" data-bs-slide="next"  style="order: 2; width: 50px;">
+                <i class="fas fa-chevron-right slideShowIcons" style="color: white; background-color: rgba(0,0,0,0.8);"></i>
+            </button>
         </div>
-        
-        <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-          <span class="slideShowIcons IconLast"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <i class="fas fa-chevron-right slideShowIcons" style="color: white; background-color: gray;"></i>
-        </button>
-      </div>
+    </div>
       
+    <!-- cards carousel -->
+    <!-- <div id="cardsCarousel" class="carousel slide mx-auto p-5" data-bs-ride="carousel" >
+        <div class="carouselCards">
+
+        </div>
+    </div> -->
+      
+    <!-- Cards -->
+    <div class="cardsCarousel">
+        <div class="card" style="width:300px">
+            <div class="card-body" style="z-index: 6969;">
+                <h2 class="text-secondary" style="font-size: 1vw;">HOMEPAD MINI</h2>
+                <h1 class="" style="font-weight: bold; font-size: 1.5vw;">Delightfully capable.<br>Surprisingly affordable.</h1>  
+                <h2 class="text-secondary" style="font-size: 1vw;">From ₹30900*</h2>
+            </div>
+            <img class="card-img-bottom" src="image10.jpg" alt="Card image" style="width:100%;">
+          </div>    
+    </div>
 </body>
 </html>
